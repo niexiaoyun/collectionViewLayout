@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DFCECD2264349600B41D53 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCECC2264349600B41D53 /* Demo1ViewController.m */; };
+		E1DFCED02264354300B41D53 /* Demo1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCECF2264354300B41D53 /* Demo1CollectionViewCell.m */; };
+		E1DFCED322644BFE00B41D53 /* DemoSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCED222644BFE00B41D53 /* DemoSectionHeaderView.m */; };
+		E1DFCED72264760000B41D53 /* NXYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCED5226475E000B41D53 /* NXYLayout.m */; };
+		E1DFCEDB22647ED500B41D53 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEDA22647ED500B41D53 /* Demo2ViewController.m */; };
+		E1DFCEDE22647EEB00B41D53 /* Demo2CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEDD22647EEB00B41D53 /* Demo2CollectionViewCell.m */; };
+		E1DFCEE22264833000B41D53 /* Demo2Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEE022647EFF00B41D53 /* Demo2Layout.m */; };
+		E1DFCEE5226566E200B41D53 /* Demo2Layout2.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEE4226566E200B41D53 /* Demo2Layout2.m */; };
+		E1DFCEE922656A6E00B41D53 /* WaterFlowLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEE822656A6E00B41D53 /* WaterFlowLayoutController.m */; };
+		E1DFCEED22656C8500B41D53 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEEB22656A8100B41D53 /* WaterFlowLayout.m */; };
+		E1DFCEEF226574F100B41D53 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1DFCEEE226574F100B41D53 /* 1.plist */; };
+		E1DFCEF2226575A900B41D53 /* WaterFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEF1226575A900B41D53 /* WaterFlowCell.m */; };
+		E1DFCEF62265A98F00B41D53 /* LineRollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEF52265A98F00B41D53 /* LineRollViewController.m */; };
+		E1DFCEF92265A9A600B41D53 /* LineRollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEF82265A9A600B41D53 /* LineRollCell.m */; };
+		E1DFCEFD2265AD6E00B41D53 /* LineRollLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEFB2265A9BF00B41D53 /* LineRollLayout.m */; };
+		E1DFCF012265CBC900B41D53 /* SquareLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCF002265CBC900B41D53 /* SquareLayoutViewController.m */; };
+		E1DFCF042265CBE700B41D53 /* SquareLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCF032265CBE700B41D53 /* SquareLayout.m */; };
+		E1FF04CF226056F200FDC47F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04CE226056F200FDC47F /* AppDelegate.m */; };
+		E1FF04D2226056F200FDC47F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04D1226056F200FDC47F /* ViewController.m */; };
+		E1FF04D5226056F200FDC47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FF04D3226056F200FDC47F /* Main.storyboard */; };
+		E1FF04D7226056F500FDC47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FF04D6226056F500FDC47F /* Assets.xcassets */; };
+		E1FF04DA226056F500FDC47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FF04D8226056F500FDC47F /* LaunchScreen.storyboard */; };
+		E1FF04DD226056F500FDC47F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04DC226056F500FDC47F /* main.m */; };
+		E1FF04E62260576A00FDC47F /* NXYCircleContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04E52260576A00FDC47F /* NXYCircleContrller.m */; };
+		E1FF04E92260596A00FDC47F /* CircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04E82260596A00FDC47F /* CircleCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1DFCECB2264349600B41D53 /* Demo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		E1DFCECC2264349600B41D53 /* Demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		E1DFCECE2264354300B41D53 /* Demo1CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1CollectionViewCell.h; sourceTree = "<group>"; };
+		E1DFCECF2264354300B41D53 /* Demo1CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1CollectionViewCell.m; sourceTree = "<group>"; };
+		E1DFCED122644BFE00B41D53 /* DemoSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSectionHeaderView.h; sourceTree = "<group>"; };
+		E1DFCED222644BFE00B41D53 /* DemoSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSectionHeaderView.m; sourceTree = "<group>"; };
+		E1DFCED4226475E000B41D53 /* NXYLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXYLayout.h; sourceTree = "<group>"; };
+		E1DFCED5226475E000B41D53 /* NXYLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXYLayout.m; sourceTree = "<group>"; };
+		E1DFCED922647ED500B41D53 /* Demo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		E1DFCEDA22647ED500B41D53 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		E1DFCEDC22647EEB00B41D53 /* Demo2CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2CollectionViewCell.h; sourceTree = "<group>"; };
+		E1DFCEDD22647EEB00B41D53 /* Demo2CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2CollectionViewCell.m; sourceTree = "<group>"; };
+		E1DFCEDF22647EFF00B41D53 /* Demo2Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2Layout.h; sourceTree = "<group>"; };
+		E1DFCEE022647EFF00B41D53 /* Demo2Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2Layout.m; sourceTree = "<group>"; };
+		E1DFCEE3226566E200B41D53 /* Demo2Layout2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2Layout2.h; sourceTree = "<group>"; };
+		E1DFCEE4226566E200B41D53 /* Demo2Layout2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2Layout2.m; sourceTree = "<group>"; };
+		E1DFCEE722656A6E00B41D53 /* WaterFlowLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayoutController.h; sourceTree = "<group>"; };
+		E1DFCEE822656A6E00B41D53 /* WaterFlowLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayoutController.m; sourceTree = "<group>"; };
+		E1DFCEEA22656A8100B41D53 /* WaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		E1DFCEEB22656A8100B41D53 /* WaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		E1DFCEEE226574F100B41D53 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		E1DFCEF0226575A900B41D53 /* WaterFlowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowCell.h; sourceTree = "<group>"; };
+		E1DFCEF1226575A900B41D53 /* WaterFlowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowCell.m; sourceTree = "<group>"; };
+		E1DFCEF42265A98F00B41D53 /* LineRollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineRollViewController.h; sourceTree = "<group>"; };
+		E1DFCEF52265A98F00B41D53 /* LineRollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineRollViewController.m; sourceTree = "<group>"; };
+		E1DFCEF72265A9A600B41D53 /* LineRollCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineRollCell.h; sourceTree = "<group>"; };
+		E1DFCEF82265A9A600B41D53 /* LineRollCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineRollCell.m; sourceTree = "<group>"; };
+		E1DFCEFA2265A9BF00B41D53 /* LineRollLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineRollLayout.h; sourceTree = "<group>"; };
+		E1DFCEFB2265A9BF00B41D53 /* LineRollLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineRollLayout.m; sourceTree = "<group>"; };
+		E1DFCEFF2265CBC900B41D53 /* SquareLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareLayoutViewController.h; sourceTree = "<group>"; };
+		E1DFCF002265CBC900B41D53 /* SquareLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareLayoutViewController.m; sourceTree = "<group>"; };
+		E1DFCF022265CBE700B41D53 /* SquareLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareLayout.h; sourceTree = "<group>"; };
+		E1DFCF032265CBE700B41D53 /* SquareLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareLayout.m; sourceTree = "<group>"; };
+		E1FF04CA226056F200FDC47F /* collectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FF04CD226056F200FDC47F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1FF04CE226056F200FDC47F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1FF04D0226056F200FDC47F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1FF04D1226056F200FDC47F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1FF04D4226056F200FDC47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FF04D6226056F500FDC47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FF04D9226056F500FDC47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FF04DB226056F500FDC47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FF04DC226056F500FDC47F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1FF04E42260576A00FDC47F /* NXYCircleContrller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXYCircleContrller.h; sourceTree = "<group>"; };
+		E1FF04E52260576A00FDC47F /* NXYCircleContrller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXYCircleContrller.m; sourceTree = "<group>"; };
+		E1FF04E72260596A00FDC47F /* CircleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewCell.h; sourceTree = "<group>"; };
+		E1FF04E82260596A00FDC47F /* CircleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FF04C7226056F200FDC47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1DFCECA2264348500B41D53 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFCECB2264349600B41D53 /* Demo1ViewController.h */,
+				E1DFCECC2264349600B41D53 /* Demo1ViewController.m */,
+				E1DFCECE2264354300B41D53 /* Demo1CollectionViewCell.h */,
+				E1DFCECF2264354300B41D53 /* Demo1CollectionViewCell.m */,
+				E1DFCED122644BFE00B41D53 /* DemoSectionHeaderView.h */,
+				E1DFCED222644BFE00B41D53 /* DemoSectionHeaderView.m */,
+				E1DFCED4226475E000B41D53 /* NXYLayout.h */,
+				E1DFCED5226475E000B41D53 /* NXYLayout.m */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		E1DFCED822647EC000B41D53 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFCED922647ED500B41D53 /* Demo2ViewController.h */,
+				E1DFCEDA22647ED500B41D53 /* Demo2ViewController.m */,
+				E1DFCEDC22647EEB00B41D53 /* Demo2CollectionViewCell.h */,
+				E1DFCEDD22647EEB00B41D53 /* Demo2CollectionViewCell.m */,
+				E1DFCEDF22647EFF00B41D53 /* Demo2Layout.h */,
+				E1DFCEE022647EFF00B41D53 /* Demo2Layout.m */,
+				E1DFCEE3226566E200B41D53 /* Demo2Layout2.h */,
+				E1DFCEE4226566E200B41D53 /* Demo2Layout2.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		E1DFCEE622656A5A00B41D53 /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFCEE722656A6E00B41D53 /* WaterFlowLayoutController.h */,
+				E1DFCEE822656A6E00B41D53 /* WaterFlowLayoutController.m */,
+				E1DFCEEA22656A8100B41D53 /* WaterFlowLayout.h */,
+				E1DFCEEB22656A8100B41D53 /* WaterFlowLayout.m */,
+				E1DFCEF0226575A900B41D53 /* WaterFlowCell.h */,
+				E1DFCEF1226575A900B41D53 /* WaterFlowCell.m */,
+			);
+			path = Demo3;
+			sourceTree = "<group>";
+		};
+		E1DFCEF32265A95800B41D53 /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFCEF42265A98F00B41D53 /* LineRollViewController.h */,
+				E1DFCEF52265A98F00B41D53 /* LineRollViewController.m */,
+				E1DFCEF72265A9A600B41D53 /* LineRollCell.h */,
+				E1DFCEF82265A9A600B41D53 /* LineRollCell.m */,
+				E1DFCEFA2265A9BF00B41D53 /* LineRollLayout.h */,
+				E1DFCEFB2265A9BF00B41D53 /* LineRollLayout.m */,
+			);
+			path = Demo4;
+			sourceTree = "<group>";
+		};
+		E1DFCEFE2265CBB800B41D53 /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFCEFF2265CBC900B41D53 /* SquareLayoutViewController.h */,
+				E1DFCF002265CBC900B41D53 /* SquareLayoutViewController.m */,
+				E1DFCF022265CBE700B41D53 /* SquareLayout.h */,
+				E1DFCF032265CBE700B41D53 /* SquareLayout.m */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
+		E1FF04C1226056F200FDC47F = {
+			isa = PBXGroup;
+			children = (
+				E1FF04CC226056F200FDC47F /* collectionView */,
+				E1FF04CB226056F200FDC47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FF04CB226056F200FDC47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF04CA226056F200FDC47F /* collectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FF04CC226056F200FDC47F /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFCEEE226574F100B41D53 /* 1.plist */,
+				E1DFCEFE2265CBB800B41D53 /* Demo5 */,
+				E1DFCEF32265A95800B41D53 /* Demo4 */,
+				E1DFCEE622656A5A00B41D53 /* Demo3 */,
+				E1DFCED822647EC000B41D53 /* Demo2 */,
+				E1DFCECA2264348500B41D53 /* Demo1 */,
+				E1FF04E32260573D00FDC47F /* circle */,
+				E1FF04CD226056F200FDC47F /* AppDelegate.h */,
+				E1FF04CE226056F200FDC47F /* AppDelegate.m */,
+				E1FF04D0226056F200FDC47F /* ViewController.h */,
+				E1FF04D1226056F200FDC47F /* ViewController.m */,
+				E1FF04D3226056F200FDC47F /* Main.storyboard */,
+				E1FF04D6226056F500FDC47F /* Assets.xcassets */,
+				E1FF04D8226056F500FDC47F /* LaunchScreen.storyboard */,
+				E1FF04DB226056F500FDC47F /* Info.plist */,
+				E1FF04DC226056F500FDC47F /* main.m */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		E1FF04E32260573D00FDC47F /* circle */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF04E42260576A00FDC47F /* NXYCircleContrller.h */,
+				E1FF04E52260576A00FDC47F /* NXYCircleContrller.m */,
+				E1FF04E72260596A00FDC47F /* CircleCollectionViewCell.h */,
+				E1FF04E82260596A00FDC47F /* CircleCollectionViewCell.m */,
+			);
+			path = circle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FF04C9226056F200FDC47F /* collectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FF04E0226056F500FDC47F /* Build configuration list for PBXNativeTarget "collectionView" */;
+			buildPhases = (
+				E1FF04C6226056F200FDC47F /* Sources */,
+				E1FF04C7226056F200FDC47F /* Frameworks */,
+				E1FF04C8226056F200FDC47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = collectionView;
+			productName = collectionView;
+			productReference = E1FF04CA226056F200FDC47F /* collectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FF04C2226056F200FDC47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "聂晓昀";
+				TargetAttributes = {
+					E1FF04C9226056F200FDC47F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E1FF04C5226056F200FDC47F /* Build configuration list for PBXProject "collectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FF04C1226056F200FDC47F;
+			productRefGroup = E1FF04CB226056F200FDC47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FF04C9226056F200FDC47F /* collectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FF04C8226056F200FDC47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF04DA226056F500FDC47F /* LaunchScreen.storyboard in Resources */,
+				E1FF04D7226056F500FDC47F /* Assets.xcassets in Resources */,
+				E1DFCEEF226574F100B41D53 /* 1.plist in Resources */,
+				E1FF04D5226056F200FDC47F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FF04C6226056F200FDC47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DFCEFD2265AD6E00B41D53 /* LineRollLayout.m in Sources */,
+				E1DFCEF92265A9A600B41D53 /* LineRollCell.m in Sources */,
+				E1DFCEED22656C8500B41D53 /* WaterFlowLayout.m in Sources */,
+				E1DFCEE22264833000B41D53 /* Demo2Layout.m in Sources */,
+				E1DFCEDB22647ED500B41D53 /* Demo2ViewController.m in Sources */,
+				E1DFCEF2226575A900B41D53 /* WaterFlowCell.m in Sources */,
+				E1DFCED72264760000B41D53 /* NXYLayout.m in Sources */,
+				E1DFCEE5226566E200B41D53 /* Demo2Layout2.m in Sources */,
+				E1DFCEDE22647EEB00B41D53 /* Demo2CollectionViewCell.m in Sources */,
+				E1DFCEE922656A6E00B41D53 /* WaterFlowLayoutController.m in Sources */,
+				E1DFCED322644BFE00B41D53 /* DemoSectionHeaderView.m in Sources */,
+				E1FF04D2226056F200FDC47F /* ViewController.m in Sources */,
+				E1DFCECD2264349600B41D53 /* Demo1ViewController.m in Sources */,
+				E1DFCF012265CBC900B41D53 /* SquareLayoutViewController.m in Sources */,
+				E1FF04E62260576A00FDC47F /* NXYCircleContrller.m in Sources */,
+				E1DFCED02264354300B41D53 /* Demo1CollectionViewCell.m in Sources */,
+				E1FF04DD226056F500FDC47F /* main.m in Sources */,
+				E1DFCF042265CBE700B41D53 /* SquareLayout.m in Sources */,
+				E1FF04CF226056F200FDC47F /* AppDelegate.m in Sources */,
+				E1DFCEF62265A98F00B41D53 /* LineRollViewController.m in Sources */,
+				E1FF04E92260596A00FDC47F /* CircleCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1FF04D3226056F200FDC47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FF04D4226056F200FDC47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FF04D8226056F500FDC47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FF04D9226056F500FDC47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FF04DE226056F500FDC47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1FF04DF226056F500FDC47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FF04E1226056F500FDC47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = collectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nxy.collectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1FF04E2226056F500FDC47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = collectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nxy.collectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FF04C5226056F200FDC47F /* Build configuration list for PBXProject "collectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FF04DE226056F500FDC47F /* Debug */,
+				E1FF04DF226056F500FDC47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FF04E0226056F500FDC47F /* Build configuration list for PBXNativeTarget "collectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FF04E1226056F500FDC47F /* Debug */,
+				E1FF04E2226056F500FDC47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FF04C2226056F200FDC47F /* Project object */;
+}
