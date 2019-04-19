@@ -13,6 +13,7 @@
 #import "WaterFlowLayoutController.h"
 #import "LineRollViewController.h"
 #import "SquareLayoutViewController.h"
+#import "NXYViewController.h"
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,copy) NSArray *dataArray;
@@ -78,6 +79,12 @@ static NSString *cellId = @"cellId";
             [self.navigationController pushViewController:VC animated:YES];
         }
             break;
+        case 6:
+        {
+            NXYViewController *VC = [[NXYViewController alloc] init];
+            [self.navigationController pushViewController:VC animated:YES];
+        }
+            break;
         default:
             break;
     }
@@ -87,7 +94,7 @@ static NSString *cellId = @"cellId";
 -(NSArray *)dataArray
 {
     if (_dataArray == nil) {
-        _dataArray = @[@"轮播图",@"悬浮照片墙",@"倾斜图片",@"瀑布流",@"水平滚动缩放",@"正方形布局"];
+        _dataArray = @[@"轮播图",@"悬浮照片墙",@"倾斜图片",@"瀑布流",@"水平滚动缩放",@"正方形布局",@"cell拖拽"];
     }
     return _dataArray;
 }

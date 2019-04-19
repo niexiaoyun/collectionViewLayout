@@ -24,6 +24,8 @@
 		E1DFCEFD2265AD6E00B41D53 /* LineRollLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCEFB2265A9BF00B41D53 /* LineRollLayout.m */; };
 		E1DFCF012265CBC900B41D53 /* SquareLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCF002265CBC900B41D53 /* SquareLayoutViewController.m */; };
 		E1DFCF042265CBE700B41D53 /* SquareLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFCF032265CBE700B41D53 /* SquareLayout.m */; };
+		E1F15D0222695C4000CB1858 /* NXYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F15CFE22695C4000CB1858 /* NXYCollectionViewCell.m */; };
+		E1F15D0322695C4000CB1858 /* NXYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F15D0122695C4000CB1858 /* NXYViewController.m */; };
 		E1FF04CF226056F200FDC47F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04CE226056F200FDC47F /* AppDelegate.m */; };
 		E1FF04D2226056F200FDC47F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF04D1226056F200FDC47F /* ViewController.m */; };
 		E1FF04D5226056F200FDC47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FF04D3226056F200FDC47F /* Main.storyboard */; };
@@ -68,6 +70,10 @@
 		E1DFCF002265CBC900B41D53 /* SquareLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareLayoutViewController.m; sourceTree = "<group>"; };
 		E1DFCF022265CBE700B41D53 /* SquareLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareLayout.h; sourceTree = "<group>"; };
 		E1DFCF032265CBE700B41D53 /* SquareLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareLayout.m; sourceTree = "<group>"; };
+		E1F15CFE22695C4000CB1858 /* NXYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXYCollectionViewCell.m; sourceTree = "<group>"; };
+		E1F15CFF22695C4000CB1858 /* NXYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXYViewController.h; sourceTree = "<group>"; };
+		E1F15D0022695C4000CB1858 /* NXYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXYCollectionViewCell.h; sourceTree = "<group>"; };
+		E1F15D0122695C4000CB1858 /* NXYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXYViewController.m; sourceTree = "<group>"; };
 		E1FF04CA226056F200FDC47F /* collectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FF04CD226056F200FDC47F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1FF04CE226056F200FDC47F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,6 +168,17 @@
 			path = Demo5;
 			sourceTree = "<group>";
 		};
+		E1F15CFD22695C2800CB1858 /* Demo6 */ = {
+			isa = PBXGroup;
+			children = (
+				E1F15D0022695C4000CB1858 /* NXYCollectionViewCell.h */,
+				E1F15CFE22695C4000CB1858 /* NXYCollectionViewCell.m */,
+				E1F15CFF22695C4000CB1858 /* NXYViewController.h */,
+				E1F15D0122695C4000CB1858 /* NXYViewController.m */,
+			);
+			path = Demo6;
+			sourceTree = "<group>";
+		};
 		E1FF04C1226056F200FDC47F = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +198,7 @@
 		E1FF04CC226056F200FDC47F /* collectionView */ = {
 			isa = PBXGroup;
 			children = (
+				E1F15CFD22695C2800CB1858 /* Demo6 */,
 				E1DFCEEE226574F100B41D53 /* 1.plist */,
 				E1DFCEFE2265CBB800B41D53 /* Demo5 */,
 				E1DFCEF32265A95800B41D53 /* Demo4 */,
@@ -293,10 +311,12 @@
 				E1DFCEE5226566E200B41D53 /* Demo2Layout2.m in Sources */,
 				E1DFCEDE22647EEB00B41D53 /* Demo2CollectionViewCell.m in Sources */,
 				E1DFCEE922656A6E00B41D53 /* WaterFlowLayoutController.m in Sources */,
+				E1F15D0222695C4000CB1858 /* NXYCollectionViewCell.m in Sources */,
 				E1DFCED322644BFE00B41D53 /* DemoSectionHeaderView.m in Sources */,
 				E1FF04D2226056F200FDC47F /* ViewController.m in Sources */,
 				E1DFCECD2264349600B41D53 /* Demo1ViewController.m in Sources */,
 				E1DFCF012265CBC900B41D53 /* SquareLayoutViewController.m in Sources */,
+				E1F15D0322695C4000CB1858 /* NXYViewController.m in Sources */,
 				E1FF04E62260576A00FDC47F /* NXYCircleContrller.m in Sources */,
 				E1DFCED02264354300B41D53 /* Demo1CollectionViewCell.m in Sources */,
 				E1FF04DD226056F500FDC47F /* main.m in Sources */,
